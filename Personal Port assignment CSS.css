@@ -1,0 +1,57 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10.5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add the new class here*/
+.project-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #CC4444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 37px;
+}
+
+.project {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
